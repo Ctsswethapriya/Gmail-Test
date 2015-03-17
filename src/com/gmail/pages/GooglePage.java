@@ -23,7 +23,7 @@ public class GooglePage extends Page{
 	public GmailPage clickOnGmailLink(){
 		driver.findElement(By.xpath("//a[text()='Gmail']")).click();
 		return new GmailPage(driver);
-	}
-	
+	}	
+
 
 }
